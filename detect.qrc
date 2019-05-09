@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>ppt/quiit.png</file>
+    <file>ppt/windowicon1.png</file>
+    <file>ppt/cc.jpg</file>
+    <file>ppt/detect1.png</file>
+    <file>ppt/exit.png</file>
+    <file>ppt/import.png</file>
+  </qresource>
+</RCC>
