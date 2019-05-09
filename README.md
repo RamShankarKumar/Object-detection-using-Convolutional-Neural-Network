@@ -318,6 +318,8 @@ line 77 :     fimg = cv2.imread("E:\\project\\minor project 2\\darkflow-master\\
 
 line 79 :     cv2.imwrite('E:\\project\\minor project 2\\darkflow-master\\sample_img\\result.jpg',fimg1)
 
+############################################################################
+
 
 in dog_detection.py file :
 
@@ -327,7 +329,16 @@ line 263 :        imagePath = 'E:\\project\\minor project 2\\darkflow-master\\sa
 
 line 266 :        text=open('E:\\project\minor project 2\\darkflow-master\\sample_img\\breedname.txt').read()
 
-###################################################################################################################################3
+##################################################################################################################################
+
+
+I have trained my model without using weight of pretrained model of tinyolo that is why i have trained my model from initial point.
+if you want to trained modle using weight then go to yolo site and downl-oad the weight which is compatible with the .cfg file.
+If you are .cfg file of tiny yolo and download the weight of the tiny-yolo only other wise it will show error.
+
+###############################################################################################
+
+And if you get any problem related to this repository or any problem related to darkflow directory or yolo .cfg file or weight file then tag me in your queston i will try to resolve your problem as soon as possible. Enjoy :)
 
 
 
