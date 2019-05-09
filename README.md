@@ -272,3 +272,64 @@ flow --pbLoad built_graph/yolo.pb --metaLoad built_graph/yolo.meta --imgdir samp
 If you'd like to load a `.pb` and `.meta` file when using `return_predict()` you can set the `"pbLoad"` and `"metaLoad"` options in place of the `"model"` and `"load"` options you would normally set.
 
 That's all.
+
+
+
+####################################################################################################################################
+
+The above instruction are the instructions of the darkflow repository.
+In my repository i have made my own object detector using yolo and darkflow.
+To run my program open dog_detection.py file in any python IDE and you will see a GUI after running the program.
+The output is given in the output folder.
+
+##################################################################################################################################
+
+I have made the Dog detection application using five dog classes.....that is:
+Bouvier_des_Flandres
+Chihuahua
+German_shepherd
+pug
+Samoyed
+
+If you are making more than 5 classes you will have to mention all the name of the classes into label.txt file.
+
+#################################################################################################################################
+
+
+GUI that has been created by me is using pyqt5 so to run this you will have first install the pyqt5 library.
+when GUI will open import the image with the dog to detect the dog in the image after that click detect button .
+when you will click the detect button then wait for some time and you will get the output in the output box.
+
+####################################################################################################################################
+
+path you have to change according to you directory:-
+
+In test_image file :-
+
+line 20 :     options = {"model": "E:\\project\\minor project 2\\darkflow-master\\cfg\\tiny-yolo-voc-30c.cfg","labels":   "E:\\project\\minor project 2\\darkflow-master\\labels.txt", "load": 66750 , "threshold": 0.01,"gpu": 1.0}
+
+line 24 :     original_img = cv2.imread("E:\\project\\minor project 2\\darkflow-master\\sample_img\\test.jpg")
+
+line 51 :     f= open("E:\\project\\minor project 2\\darkflow-master\\sample_img\\breedname.txt","w+")
+
+line 69 :     cv2.imwrite('E:\\project\\minor project 2\\darkflow-master\\sample_img\\result.jpg',newImage)
+
+line 77 :     fimg = cv2.imread("E:\\project\\minor project 2\\darkflow-master\\sample_img\\result.jpg")
+
+line 79 :     cv2.imwrite('E:\\project\\minor project 2\\darkflow-master\\sample_img\\result.jpg',fimg1)
+
+
+in dog_detection.py file :
+
+line 257 :        cv2.imwrite('E:\\project\\minor project 2\\darkflow-master\\sample_img\\test.jpg',img)
+
+line 263 :        imagePath = 'E:\\project\\minor project 2\\darkflow-master\\sample_img\\result.jpg'
+
+line 266 :        text=open('E:\\project\minor project 2\\darkflow-master\\sample_img\\breedname.txt').read()
+
+###################################################################################################################################3
+
+
+
+
+
