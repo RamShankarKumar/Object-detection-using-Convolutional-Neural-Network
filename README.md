@@ -338,6 +338,10 @@ If you are .cfg file of tiny yolo and download the weight of the tiny-yolo only 
 
 ###############################################################################################
 
+First you have to generate checkpoints by trainig the model so generate the checkpoints and it will be saved in ckpt folder that will be created by itsself.
+
+##################################################################################################
+
 And if you get any problem related to this repository or any problem related to darkflow directory or yolo .cfg file or weight file then tag me in your queston i will try to resolve your problem as soon as possible. Enjoy :)
 
 
